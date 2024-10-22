@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart FAQ Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex">
+        <h1 class="faq-head">Frequently Asked Questions</h1>
+        <div class="desc">Whether you're a prospective student looking for program details, a parent seeking information about our curriculum, or a current student with inquiries about your studies, we're here to help.
+        </div>
+        
+        <div>
+            <input type="text" id="query" placeholder="Ask a question...">
+            <button onclick="searchFAQ()">Ask</button>
+        </div>
+
+        <div id="result" class="result-box" style="display:none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
