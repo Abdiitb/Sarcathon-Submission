@@ -13,12 +13,12 @@ This repository contains the implementation of a Smart FAQ module that combines 
 
 ```bash
 .
-├── backend/
-│   ├── faqs.json             # Contains the FAQ data in JSON format
-│   ├── views.py              # Implements the search logic using fuzzy matching and SBERT
-│   ├── models.py             # Defines FAQ models (if applicable)
-│   ├── admin.py              # Handles FAQ management in Django admin
-│   ├── urls.py               # URL routing for the Django backend
+├── Backend/
+│   ├── Backend/             # Contains the FAQ data in JSON format
+│       ├── views.py              # Implements the search logic using fuzzy matching and SBERT
+│       ├── models.py             # Defines FAQ models (if applicable)
+│       ├── admin.py              # Handles FAQ management in Django admin
+│       ├── urls.py               # URL routing for the Django backend
 ├── static/
 ├── templates/
 ├── manage.py
