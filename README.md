@@ -9,17 +9,9 @@ This repository contains the implementation of a Smart FAQ module that combines 
 - **Hybrid Approach**: Initially attempts fuzzy matching, and if the match score is below a threshold, context matching is used.
 - **Django Backend**: The backend is built using Django, where FAQ data is loaded from a JSON file and served to the search module.
 
-## Project Structure
-
-```bash
-.
-├── Backend/
-│   ├── Backend/             # Contains the FAQ data in JSON format
-│       ├── views.py              # Implements the search logic using fuzzy matching and SBERT
-│       ├── models.py             # Defines FAQ models (if applicable)
-│       ├── admin.py              # Handles FAQ management in Django admin
-│       ├── urls.py               # URL routing for the Django backend
-├── static/
-├── templates/
-├── manage.py
-├── README.md
+## Requirements
+- Python 3.7+
+- Django 4.x
+- fuzzywuzzy for string matching
+- sentence-transformers for context matching using SBERT
+- spaCy for natural language processing (NLP) preprocessing
